@@ -283,7 +283,7 @@ button:focus {
 
 .main-name {
   color: #4AABFF;
-  font-size: 3em;
+  font-size: 5em;
 }
 
 .home-text1{
@@ -651,7 +651,7 @@ button:focus {
 }
 
 .img-name {
-  height: 50px !important;
+  height: 30px !important;
 }
 
 .img-cinder {
