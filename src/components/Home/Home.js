@@ -33,7 +33,7 @@ function Home() {
               paddingBottom: "50px",
             }}
           >
-            <h1 style={{ fontSize: "3.8em", paddingBottom: "20px" }}>
+            <h1 style={{ fontSize: "3.2em", paddingBottom: "20px" }}>
               <strong className="purple">codempowr</strong>
             </h1>
             <h2>We. Empower. Trailblazers.</h2>
