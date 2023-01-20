@@ -8,30 +8,25 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br />I am a junior pursuing IMSC in Maths and Computing in BIT
-            Mesra.
+            Codempowr was founded in 2023 by Neila Toofuny and Alex Beamish, two undergraduates
+            at Queen's University with a passion for both software development and social innovation.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Prior to starting Codempowr, Neila was a founding member of The CINDER Project
+            (formerly the BEAR project), which started as a club at Queen's devoted to creating
+            software that serves BIPOC communities.
+            <br />
+            <br />
+            Alex became involved with The CINDER Project after its inception in 2022 when he worked with
+            Neila to develop the MamaRide mobile app, a free ridesharing app designed to provide a safer alternative
+            to hitchhiking for BIPOC women. Having completed his undergraduate coursework in the
+            Fall 2022 term, Alex decided to begin the next chapter by founding Codempowr with Neila.
+            <br />
+            <br />
+            Together, through Codempowr, Neila and Alex are continuing the work of The CINDER Project while also widening 
+            their focus to more general software projects in order to support the growth of Codempowr and fund The
+            CINDER Project.
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writting Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
         </blockquote>
       </Card.Body>
     </Card>
