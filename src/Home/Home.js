@@ -23,10 +23,9 @@ function Home() {
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">
-          <Row>
             <Col md={7} className="home-header">
               <div style = {{flex: 1, flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
-                <img src={codempowrName} className="img-name" alt="brand" /> 
+                <strong className="main-name">codempowr&nbsp;</strong>
                 <br />
                 <br />
                 <br />
@@ -39,19 +38,6 @@ function Home() {
                 <br />
               </div>
             </Col>
-            {!(650 < width && width < 1200) && (
-            <Col md={5} style={{ paddingBottom: 20 }}>
-              <div style={{textAlign: "left", paddingTop: 20, paddingRight: 10}}>
-                  <strong className="home-text1">We. Empower. Trailblazers.&nbsp;</strong>
-              </div>
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-            </Col>)}
-          </Row>
         </Container>
       </Container>
       <Home2 />
