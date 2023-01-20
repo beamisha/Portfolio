@@ -13,7 +13,7 @@ function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <Row>
+        
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               OUR<span className="purple"> SERVICES</span>
@@ -38,7 +38,6 @@ function Home2() {
               We believe in doing good while being good, and that's why we have a project devoted to connecting innovators and nurturing demographic equity and representation (The CINDER Project).
             </p>
           </Col>
-        </Row>
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND US ON</h1>
