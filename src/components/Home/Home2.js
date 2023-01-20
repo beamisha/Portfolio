@@ -10,6 +10,7 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
+  const socialsEnabled = false
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -39,6 +40,18 @@ function Home2() {
             </p>
           </Col>
         <Row>
+          <Col md={12} className="home-about-social">
+          <br />
+          <br />
+          <h1><span className="purple">CONTACT</span> US</h1>
+            <br />
+            <br />
+            <h2>
+              <p>13nat2@queensu.ca</p>
+              <p>(613)-331-1436</p>
+            </h2>
+          </Col>
+          {socialsEnabled && (
           <Col md={12} className="home-about-social">
             <h1>FIND US ON</h1>
             <ul className="home-about-social-links">
@@ -73,7 +86,7 @@ function Home2() {
                 </a>
               </li>
             </ul>
-          </Col>
+          </Col>)}
         </Row>
       </Container>
     </Container>
