@@ -26,7 +26,7 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <div style = {{flex: 1, flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
-                <img src={codempowrName} className="img-name" alt="brand" /> 
+                <strong className="main-name">codempowr&nbsp;</strong>
                 <br />
                 <br />
                 <br />
