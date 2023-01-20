@@ -18,6 +18,33 @@ function Home() {
        window.removeEventListener("resize", handleResizeWindow);
      };
    }, []);
+   if (width < 600)  {
+     return (
+      <section>
+      <Container fluid className="about-section">
+      <Particle />
+      <Container>
+        <Row style={{ justifyContent: "center", padding: "10px" }}>
+          <Col
+            md={7}
+            style={{
+              justifyContent: "center",
+              paddingTop: "50px",
+              paddingBottom: "50px",
+            }}
+          >
+            <h1 style={{ fontSize: "3.8em", paddingBottom: "20px" }}>
+              <strong className="purple">codempowr</strong>
+            </h1>
+            <h2>We. Empower. Trailblazers.</h2>
+          </Col>
+        </Row>
+      </Container>
+    </Container>
+    <Home2 />
+    </section>
+     )
+   }
   return (
     <section>
       <Container fluid className="home-section" id="home">
