@@ -1,13 +1,24 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import headshot1 from "../../Assets/BeamishAlexHeadshot.jpg";
+import headshot2 from "../../Assets/NeilaHeadshot.jpg";
 import Toolstack from "./Toolstack";
 
 function About() {
+  const [width, setWidth] = useState(window.innerWidth);
+  useEffect(() => {
+    const handleResizeWindow = () => setWidth(window.innerWidth);
+     // subscribe to window resize event "onComponentDidMount"
+     window.addEventListener("resize", handleResizeWindow);
+     return () => {
+       // unsubscribe "onComponentDestroy"
+       window.removeEventListener("resize", handleResizeWindow);
+     };
+   }, []);
   return (
     <Container fluid className="about-section">
       <Particle />
@@ -17,35 +28,36 @@ function About() {
             md={7}
             style={{
               justifyContent: "center",
-              paddingTop: "30px",
+              paddingTop: "50px",
               paddingBottom: "50px",
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+              OUR <strong className="purple">STORY</strong>
             </h1>
             <Aboutcard />
           </Col>
+          {!(700 < width && width < 1200) && (
           <Col
             md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            style={{ display: "flex", flexDirection: "column", justifyContent: 'center', alignItems: 'center', paddingBottom: "50px", alignItems: "center"}}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
-          </Col>
+            <div className="img-frame">
+              <img src={headshot2} alt="about" className="img-headshot" />
+            </div>
+            <br />
+            <p style={{fontSize: '1.3em'}}>Neila Toofuny, <i>Cofounder</i></p>
+            <br />
+            <br />
+            <br />
+            <div className="img-frame">
+              <img src={headshot1} alt="about" className="img-headshot" />
+            </div>
+            <br />
+            <p style={{fontSize: '1.3em'}}>Alex Beamish, <i>Cofounder</i></p>
+          </Col>)}
         </Row>
-        <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
-        </h1>
-
-        <Techstack />
-
-        <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
-        </h1>
-        <Toolstack />
-
-        <Github />
       </Container>
     </Container>
   );
