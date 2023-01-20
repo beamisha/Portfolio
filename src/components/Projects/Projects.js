@@ -18,7 +18,8 @@ function Projects() {
         <h1 className="project-heading">
           OUR <strong className="purple">PORTFOLIO</strong>
         </h1>
-        <p style={{ color: "white" }}>
+        <br />
+        <p style={{ fontSize: 20, color: "white" }}>
           This is a place to showcase the work we've done for clients, as well as on our original projects.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
