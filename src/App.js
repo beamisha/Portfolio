@@ -41,7 +41,6 @@ function App() {
           <Route path="/portfolio" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/cinder" element={<Resume />} />
-          <Route path="/zohoverify" element={<VerifyZoho />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
