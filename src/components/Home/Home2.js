@@ -47,7 +47,7 @@ function Home2() {
             <br />
             <br />
             <h2>
-              <p>neilatoofuny@gmail.com</p>
+              <p>info@codempowr.com</p>
               <p>(613)-331-1436</p>
             </h2>
           </Col>
