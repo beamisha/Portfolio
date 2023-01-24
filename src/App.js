@@ -6,6 +6,8 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
+import VerifyZoho from "./components/zohoverify/displayhtml";
+
 import {
   BrowserRouter as Router,
   Route,
@@ -39,7 +41,7 @@ function App() {
           <Route path="/portfolio" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/cinder" element={<Resume />} />
-          <Route path="/zohoverify" element={<Resume />} />
+          <Route path="/zohoverify" element={<VerifyZoho />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
