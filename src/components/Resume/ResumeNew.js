@@ -54,7 +54,6 @@ function ResumeNew() {
             which currently consists of Neila Toofuny, Alex Beamish and Alec Trepanier,
             is actively working with partners and clients to develop software solutions that empower
             those who stand to benefit most.
-            with.
             <br />
             <br />
             If you have a project that aligns with the mission of The CINDER Project,
