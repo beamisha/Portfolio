@@ -52,13 +52,13 @@ function ResumeNew() {
             Now, The CINDER Project is in the process of being converted from a club at Queen's
             to a stand-alone project funded by Codempowr. The CINDER Project team,
             which currently consists of Neila Toofuny, Alex Beamish and Alec Trepanier,
-            is actively working with BIPOC-owned businesses to develop low-cost and highly effective
-            software solutions that meet their needs.
+            is actively working with partners and clients to develop software solutions that empower
+            those who stand to benefit most.
+            with.
             <br />
             <br />
             If you have a project that aligns with the mission of The CINDER Project,
-            please <a style={{color: '#4A87FF'}} href="https://thecinderproject.ca/#contact">get in touch</a> with our team.
-            You may qualify for our discounted services!
+            please <a style={{color: '#4A87FF'}} href="https://thecinderproject.ca/#contact">get in touch</a> with our team!
           </p>
         </blockquote>
           </Col>
